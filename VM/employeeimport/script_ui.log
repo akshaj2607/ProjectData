@@ -1,0 +1,11 @@
+2025-01-20 11:02:46,832 - INFO - Loaded Employee Data:
+2025-01-20 11:02:46,832 - INFO -    EMPLNO1  EMPLNO2 FULLNAME EMPLNAME USERNAME NEWUSERNAME  MAXDISCPERC
+0       22       22   ABC EF     ABCD       EF         ABC           10
+1       17       17   MNO PQ     MNOP       PQ         MNO           10
+2025-01-20 11:02:46,860 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 11:02:46,890 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-20 11:02:46,892 - INFO - Generated Auth-Nonce-Response: 701505
+2025-01-20 11:02:46,895 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 11:02:46,989 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-20 11:02:46,990 - INFO - Authenticated successfully. Auth-Session: BDE2ACD2DA7E442BAA2B8D401842DA83
+2025-01-20 11:02:46,990 - INFO - Authentication successful. Proceeding with data processing...

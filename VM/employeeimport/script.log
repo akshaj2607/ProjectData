@@ -1,0 +1,341 @@
+2025-01-15 15:40:13,602 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-15 15:40:13,602 - INFO - Script started.
+2025-01-15 15:40:34,950 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:34,978 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-15 15:40:34,983 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:35,059 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-15 15:40:35,061 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:35,125 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 127
+2025-01-15 15:40:35,128 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:35,262 - DEBUG - http://rpsupport1003:80 "POST /api/common/employee HTTP/11" 400 807
+2025-01-15 15:40:35,264 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:35,326 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 127
+2025-01-15 15:40:35,328 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:35,413 - DEBUG - http://rpsupport1003:80 "POST /api/common/employee HTTP/11" 400 807
+2025-01-15 15:40:38,142 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:38,173 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-15 15:40:38,175 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:38,258 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-15 15:40:38,261 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:38,336 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 127
+2025-01-15 15:40:38,338 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:38,456 - DEBUG - http://rpsupport1003:80 "POST /api/common/employee HTTP/11" 400 807
+2025-01-15 15:40:38,458 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:38,559 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 127
+2025-01-15 15:40:38,562 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-15 15:40:38,705 - DEBUG - http://rpsupport1003:80 "POST /api/common/employee HTTP/11" 400 807
+2025-01-16 15:32:17,887 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-16 15:32:17,888 - INFO - Script started.
+2025-01-16 15:53:05,479 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-16 15:53:05,479 - INFO - Script started.
+2025-01-17 10:19:56,811 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-17 10:19:56,812 - INFO - Script started.
+2025-01-17 10:26:11,148 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-17 10:26:11,149 - INFO - Script started.
+2025-01-17 10:29:30,555 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-17 10:29:30,555 - INFO - Script started.
+2025-01-17 11:03:54,111 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-17 11:03:54,111 - INFO - Script started.
+2025-01-17 11:30:23,336 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-17 11:30:23,337 - INFO - Script started.
+2025-01-17 12:15:58,433 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-17 12:15:58,434 - INFO - Script started.
+2025-01-20 09:41:35,237 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 09:41:35,238 - INFO - Script started.
+2025-01-20 09:52:43,956 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 09:52:43,958 - INFO - Script started.
+2025-01-20 09:58:22,174 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 09:58:22,174 - INFO - Script started.
+2025-01-20 10:00:55,287 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 10:00:55,288 - INFO - Script started.
+2025-01-20 10:07:38,654 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 10:07:38,654 - INFO - Script started.
+2025-01-20 10:18:38,271 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 10:18:38,272 - INFO - Script started.
+2025-01-20 10:23:17,124 - INFO - Attempting to write to log file at: D:\VM\VM\employeeimport\script.log
+2025-01-20 10:23:17,125 - INFO - Script started.
+2025-01-20 10:23:17,421 - INFO - Loaded Employee Data:
+2025-01-20 10:23:17,421 - INFO -    EMPLNO1  EMPLNO2 FULLNAME EMPLNAME USERNAME NEWUSERNAME  MAXDISCPERC
+0       22       22   ABC EF     ABCD       EF         ABC           10
+1       17       17   MNO PQ     MNOP       PQ         MNO           10
+2025-01-20 10:23:17,454 - INFO - Employee 1:
+2025-01-20 10:23:17,455 - INFO -   Employee No 1: 22
+2025-01-20 10:23:17,455 - INFO -   Employee No 2: 22
+2025-01-20 10:23:17,455 - INFO -   Full Name: ABC EF
+2025-01-20 10:23:17,455 - INFO -   Employee Name: ABCD
+2025-01-20 10:23:17,456 - INFO -   User Name: EF
+2025-01-20 10:23:17,456 - INFO -   Max Discount Percentage: 10
+2025-01-20 10:23:17,456 - INFO - ------------------------------
+2025-01-20 10:23:17,457 - INFO - Employee 2:
+2025-01-20 10:23:17,457 - INFO -   Employee No 1: 17
+2025-01-20 10:23:17,457 - INFO -   Employee No 2: 17
+2025-01-20 10:23:17,457 - INFO -   Full Name: MNO PQ
+2025-01-20 10:23:17,458 - INFO -   Employee Name: MNOP
+2025-01-20 10:23:17,458 - INFO -   User Name: PQ
+2025-01-20 10:23:17,458 - INFO -   Max Discount Percentage: 10
+2025-01-20 10:23:17,458 - INFO - ------------------------------
+2025-01-20 10:23:17,461 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:17,474 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-20 10:23:17,475 - INFO - Generated Auth-Nonce-Response: 1599139
+2025-01-20 10:23:17,476 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:17,541 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-20 10:23:17,542 - INFO - Authenticated successfully. Auth-Session: F0B2A24ABB304E5F979A2082B9E20E9F
+2025-01-20 10:23:17,543 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:17,599 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/sit?ws=rpsupport1003 HTTP/11" 200 0
+2025-01-20 10:23:17,601 - INFO - Successfully claimed seat for workstation RPSUPPORT1003.
+2025-01-20 10:23:17,601 - INFO - Using auth-session: F0B2A24ABB304E5F979A2082B9E20E9F
+2025-01-20 10:23:17,608 - INFO - Requesting URL: http://rpsupport1003/api/common/employeelist?filter=(username,lk,EF)AND(active,eq,true)
+2025-01-20 10:23:17,609 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:17,718 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,EF)AND(active,eq,true) HTTP/11" 200 1728
+2025-01-20 10:23:17,719 - INFO - Response for EF: {'name': 'employeelist', 'metatype': 'Resource', 'comment': 'EmployeeList', 'translationid': 'EmployeeList.0', 'errors': None, 'data': [{'sid': '730758232000151614', 'createdby': 'SYSADMIN', 'createddatetime': '2025-01-03T16:10:32.000+05:30', 'modifiedby': 'SYSADMIN', 'modifieddatetime': '2025-01-15T15:37:37.000+05:30', 'controllersid': '726950515000099255', 'originapplication': 'RProPrismWeb', 'postdate': '2025-01-15T15:37:36.000+05:30', 'rowversion': 35, 'tenantsid': '726950516000113256', 'sbssid': '726950516000117257', 'emplno1': '22', 'emplno2': '22', 'emplname': 'ABCD', 'active': True, 'fullname': 'ABC EF', 'commlvl': None, 'drawer': None, 'timeshiftno': None, 'maxdiscperc': 10, 'jobsid': None, 'custsid': '730758232000150613', 'description': None, 'hiredate': None, 'exempt': False, 'tillsid': None, 'origsbssid': '726950516000117257', 'basestoresid': None, 'requiredpassword': False, 'emplid': None, 'status': 1, 'firstname': 'ABC', 'lastname': 'EF', 'udf1string': None, 'udf2string': None, 'udf3string': None, 'udf4string': None, 'udf5string': None, 'udf1date': None, 'udf2date': None, 'email': None, 'address1': None, 'address2': None, 'address3': None, 'address4': None, 'address5': None, 'address6': None, 'postalcode': None, 'city': None, 'state': None, 'phoneno': None, 'udf6string': None, 'udf7string': None, 'udf8string': None, 'udf9string': None, 'udf10string': None, 'udf11string': None, 'udf12string': None, 'udf13string': None, 'udf14string': None, 'udf15string': None, 'udf16string': None, 'udf17string': None, 'udf18string': None, 'jobname': None, 'jobdescription': None, 'enabled': True, 'internal': False, 'admin': False, 'username': 'EF', 'storeno': None, 'storename': None, 'storecode': None, 'origsbsno': 1, 'origsbsname': '001', 'addresstype': None, 'phonetype': None, 'tillname': None, 'tillid': None, 'locked': False, 'lockeddate': None, 'failureattempts': None}]}
+2025-01-20 10:23:17,719 - INFO - User EF exists. Updating data.
+2025-01-20 10:23:17,721 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:18,129 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-01-20 10:23:18,130 - INFO - Update response for EF: 200 - {"name":"employee","metatype":"Resource","comment":"Employee","translationid":"Employee.0","errors":null,"data":[{"sid":"730758232000151614","createdby":"SYSADMIN","createddatetime":"2025-01-03T16:10:32.000+05:30","modifiedby":"SYSADMIN","modifieddatetime":"2025-01-20T10:23:18.000+05:30","controllersid":"726950515000099255","originapplication":"RProPrismWeb","postdate":"2025-01-20T10:23:17.000+05:30","rowversion":36,"tenantsid":"726950516000113256","status":1,"sbssid":"726950516000117257","emplno1":"22","emplno2":"22","emplname":"ABCD","active":true,"fullname":"ABC EF","commlvl":null,"drawer":null,"timeshiftno":null,"maxdiscperc":10,"jobsid":null,"custsid":"730758232000150613","description":null,"hiredate":null,"exempt":false,"origsbssid":"726950516000117257","basesbssid":null,"basestoresid":null,"tillsbssid":null,"tillstoresid":null,"tillsid":null,"requiredpassword":false,"emplid":null,"overrideprofile":false,"username":"ABC","useractive":true,"passwordmodifieddatetime":null,"admin":false,"locked":false,"lockeddatetime":null,"failureattempts":null,"xoutsettings":null,"internal":false,"jobtitle":null,"firstname":"ABC","lastname":"EF","udf1string":null,"udf2string":null,"udf3string":null,"udf4string":null,"udf5string":null,"udf1date":null,"udf2date":null,"storecode":null,"storename":null,"email":null,"storesbsno":null,"tillname":null,"storeno":null,"origsbsno":1,"sbsno":1,"tillsbsno":null,"tillstoreno":null}]}
+2025-01-20 10:23:18,131 - INFO - Successfully updated data for user EF.
+2025-01-20 10:23:18,132 - INFO - Requesting URL: http://rpsupport1003/api/common/employeelist?filter=(username,lk,PQ)AND(active,eq,true)
+2025-01-20 10:23:18,135 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:18,215 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,PQ)AND(active,eq,true) HTTP/11" 200 1728
+2025-01-20 10:23:18,216 - INFO - Response for PQ: {'name': 'employeelist', 'metatype': 'Resource', 'comment': 'EmployeeList', 'translationid': 'EmployeeList.0', 'errors': None, 'data': [{'sid': '730758232000198616', 'createdby': 'SYSADMIN', 'createddatetime': '2025-01-03T16:10:33.000+05:30', 'modifiedby': 'SYSADMIN', 'modifieddatetime': '2025-01-15T15:37:37.000+05:30', 'controllersid': '726950515000099255', 'originapplication': 'RProPrismWeb', 'postdate': '2025-01-15T15:37:37.000+05:30', 'rowversion': 35, 'tenantsid': '726950516000113256', 'sbssid': '726950516000117257', 'emplno1': '17', 'emplno2': '17', 'emplname': 'MNOP', 'active': True, 'fullname': 'MNO PQ', 'commlvl': None, 'drawer': None, 'timeshiftno': None, 'maxdiscperc': 10, 'jobsid': None, 'custsid': '730758232000197615', 'description': None, 'hiredate': None, 'exempt': False, 'tillsid': None, 'origsbssid': '726950516000117257', 'basestoresid': None, 'requiredpassword': False, 'emplid': None, 'status': 1, 'firstname': 'MNO', 'lastname': 'PQ', 'udf1string': None, 'udf2string': None, 'udf3string': None, 'udf4string': None, 'udf5string': None, 'udf1date': None, 'udf2date': None, 'email': None, 'address1': None, 'address2': None, 'address3': None, 'address4': None, 'address5': None, 'address6': None, 'postalcode': None, 'city': None, 'state': None, 'phoneno': None, 'udf6string': None, 'udf7string': None, 'udf8string': None, 'udf9string': None, 'udf10string': None, 'udf11string': None, 'udf12string': None, 'udf13string': None, 'udf14string': None, 'udf15string': None, 'udf16string': None, 'udf17string': None, 'udf18string': None, 'jobname': None, 'jobdescription': None, 'enabled': True, 'internal': False, 'admin': False, 'username': 'PQ', 'storeno': None, 'storename': None, 'storecode': None, 'origsbsno': 1, 'origsbsname': '001', 'addresstype': None, 'phonetype': None, 'tillname': None, 'tillid': None, 'locked': False, 'lockeddate': None, 'failureattempts': None}]}
+2025-01-20 10:23:18,217 - INFO - User PQ exists. Updating data.
+2025-01-20 10:23:18,219 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-20 10:23:18,335 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-01-20 10:23:18,336 - INFO - Update response for PQ: 200 - {"name":"employee","metatype":"Resource","comment":"Employee","translationid":"Employee.0","errors":null,"data":[{"sid":"730758232000198616","createdby":"SYSADMIN","createddatetime":"2025-01-03T16:10:33.000+05:30","modifiedby":"SYSADMIN","modifieddatetime":"2025-01-20T10:23:18.000+05:30","controllersid":"726950515000099255","originapplication":"RProPrismWeb","postdate":"2025-01-20T10:23:18.000+05:30","rowversion":36,"tenantsid":"726950516000113256","status":1,"sbssid":"726950516000117257","emplno1":"17","emplno2":"17","emplname":"MNOP","active":true,"fullname":"MNO PQ","commlvl":null,"drawer":null,"timeshiftno":null,"maxdiscperc":10,"jobsid":null,"custsid":"730758232000197615","description":null,"hiredate":null,"exempt":false,"origsbssid":"726950516000117257","basesbssid":null,"basestoresid":null,"tillsbssid":null,"tillstoresid":null,"tillsid":null,"requiredpassword":false,"emplid":null,"overrideprofile":false,"username":"MNO","useractive":true,"passwordmodifieddatetime":null,"admin":false,"locked":false,"lockeddatetime":null,"failureattempts":null,"xoutsettings":null,"internal":false,"jobtitle":null,"firstname":"MNO","lastname":"PQ","udf1string":null,"udf2string":null,"udf3string":null,"udf4string":null,"udf5string":null,"udf1date":null,"udf2date":null,"storecode":null,"storename":null,"email":null,"storesbsno":null,"tillname":null,"storeno":null,"origsbsno":1,"sbsno":1,"tillsbsno":null,"tillstoreno":null}]}
+2025-01-20 10:23:18,337 - INFO - Successfully updated data for user PQ.
+2025-01-20 10:23:18,337 - INFO - Script finished.
+2025-01-21 10:38:09,400 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:38:09,449 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-21 10:38:09,461 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:38:09,692 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-21 10:38:39,212 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:38:39,251 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-21 10:38:39,257 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:38:39,448 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-21 10:54:04,138 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-21 10:54:27,990 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:54:28,033 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-21 10:54:28,043 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:54:28,238 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-21 10:54:28,240 - INFO - Authentication successful.
+2025-01-21 10:54:31,627 - INFO - Checking if user ABC exists...
+2025-01-21 10:54:31,630 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:54:31,723 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-21 10:54:31,725 - INFO - Updating user ABC...
+2025-01-21 10:54:31,729 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:54:31,902 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1431
+2025-01-21 10:54:31,903 - INFO - Successfully updated user ABC.
+2025-01-21 10:54:31,905 - INFO - Checking if user MNO exists...
+2025-01-21 10:54:31,909 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:54:31,967 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-21 10:54:31,969 - INFO - Updating user MNO...
+2025-01-21 10:54:31,973 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:54:32,203 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1431
+2025-01-21 10:54:32,205 - INFO - Successfully updated user MNO.
+2025-01-21 10:59:51,344 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:59:51,389 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-21 10:59:51,396 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:59:51,607 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-21 10:59:51,609 - INFO - Authentication successful.
+2025-01-21 10:59:54,081 - INFO - Checking if user EF exists...
+2025-01-21 10:59:54,091 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:59:54,177 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,EF)AND(active,eq,true) HTTP/11" 200 1728
+2025-01-21 10:59:54,179 - INFO - Updating user EF...
+2025-01-21 10:59:54,184 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:59:54,392 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-01-21 10:59:54,393 - INFO - Successfully updated user EF.
+2025-01-21 10:59:54,396 - INFO - Checking if user PQ exists...
+2025-01-21 10:59:54,401 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:59:54,494 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,PQ)AND(active,eq,true) HTTP/11" 200 1728
+2025-01-21 10:59:54,497 - INFO - Updating user PQ...
+2025-01-21 10:59:54,502 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-21 10:59:54,725 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-01-21 10:59:54,727 - INFO - Successfully updated user PQ.
+2025-01-22 09:48:36,016 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 12:01:37,756 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 12:43:29,988 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 12:43:30,034 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-22 12:43:30,040 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 12:43:30,133 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-22 12:43:30,134 - INFO - Authentication successful.
+2025-01-22 12:43:32,708 - INFO - Checking if user ABC exists...
+2025-01-22 12:43:32,709 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 12:43:32,756 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-22 12:43:32,757 - INFO - Updating user ABC...
+2025-01-22 12:43:32,760 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 12:43:33,195 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1431
+2025-01-22 12:43:33,196 - INFO - Successfully updated user ABC.
+2025-01-22 12:43:33,197 - INFO - Checking if user MNO exists...
+2025-01-22 12:43:33,200 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 12:43:33,276 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-22 12:43:33,277 - INFO - Updating user MNO...
+2025-01-22 12:43:33,278 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 12:43:33,411 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1431
+2025-01-22 12:43:33,413 - INFO - Successfully updated user MNO.
+2025-01-22 12:57:02,583 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:00:46,051 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:02:35,829 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:05:35,844 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:06:59,603 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:07:38,450 - INFO - Authentication required. Please authenticate first.
+2025-01-22 13:09:44,829 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:09:50,815 - INFO - Authenticating...
+2025-01-22 13:09:50,827 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 13:09:50,855 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-22 13:09:50,859 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 13:09:50,922 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-22 13:09:50,923 - INFO - Authentication successful.
+2025-01-22 13:09:51,234 - INFO - Checking if user EF exists...
+2025-01-22 13:09:51,235 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 13:09:51,310 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,EF)AND(active,eq,true) HTTP/11" 200 1728
+2025-01-22 13:09:51,311 - INFO - Updating user EF...
+2025-01-22 13:09:51,313 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 13:09:51,442 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-01-22 13:09:51,442 - INFO - Successfully updated user EF.
+2025-01-22 13:09:51,443 - INFO - Checking if user PQ exists...
+2025-01-22 13:09:51,444 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 13:09:51,519 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,PQ)AND(active,eq,true) HTTP/11" 200 1728
+2025-01-22 13:09:51,520 - INFO - Updating user PQ...
+2025-01-22 13:09:51,522 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-22 13:09:51,661 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-01-22 13:09:51,663 - INFO - Successfully updated user PQ.
+2025-01-22 13:15:21,202 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 13:19:00,890 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-22 17:15:13,721 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-23 09:55:59,006 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-23 09:59:53,526 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-23 10:01:20,159 - INFO - Authenticating...
+2025-01-23 10:01:20,176 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:01:20,212 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-23 10:01:20,217 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:01:20,313 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-23 10:01:20,314 - INFO - Authentication successful.
+2025-01-23 10:01:20,839 - INFO - Checking if user ABC exists...
+2025-01-23 10:01:20,841 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:01:20,950 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-23 10:01:20,950 - INFO - Updating user ABC...
+2025-01-23 10:01:20,952 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:01:21,100 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-01-23 10:01:21,101 - INFO - Successfully updated user ABC.
+2025-01-23 10:01:21,102 - INFO - Checking if user MNO exists...
+2025-01-23 10:01:21,103 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:01:21,182 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-23 10:01:21,184 - INFO - Updating user MNO...
+2025-01-23 10:01:21,187 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:01:21,309 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-01-23 10:01:21,309 - INFO - Successfully updated user MNO.
+2025-01-23 10:02:39,079 - INFO - Checking if user CEF exists...
+2025-01-23 10:02:39,083 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:02:39,166 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,CEF)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-23 10:02:39,167 - INFO - Updating user CEF...
+2025-01-23 10:02:39,170 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:02:39,306 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-01-23 10:02:39,306 - INFO - Successfully updated user CEF.
+2025-01-23 10:02:39,307 - INFO - Checking if user OPQ exists...
+2025-01-23 10:02:39,309 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:02:39,366 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,OPQ)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-23 10:02:39,367 - INFO - Updating user OPQ...
+2025-01-23 10:02:39,369 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-23 10:02:39,499 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-01-23 10:02:39,500 - INFO - Successfully updated user OPQ.
+2025-01-25 12:02:55,061 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-25 12:32:48,192 - INFO - Authenticating...
+2025-01-25 12:32:48,203 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-25 12:32:48,234 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-01-25 12:32:48,238 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-25 12:32:48,308 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-01-25 12:32:48,308 - INFO - Authentication successful.
+2025-01-25 12:32:48,755 - INFO - Checking if user ABC exists...
+2025-01-25 12:32:48,757 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-25 12:32:48,816 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-25 12:32:48,817 - INFO - Updating user ABC...
+2025-01-25 12:32:48,820 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-25 12:32:49,264 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1431
+2025-01-25 12:32:49,265 - INFO - Successfully updated user ABC.
+2025-01-25 12:32:49,265 - INFO - Checking if user MNO exists...
+2025-01-25 12:32:49,267 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-25 12:32:49,346 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 1729
+2025-01-25 12:32:49,347 - INFO - Updating user MNO...
+2025-01-25 12:32:49,349 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-01-25 12:32:49,514 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1431
+2025-01-25 12:32:49,516 - INFO - Successfully updated user MNO.
+2025-01-28 09:49:38,791 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-28 13:13:45,242 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-01-28 13:14:31,088 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:23:33,737 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:25:59,603 - INFO - Authenticating...
+2025-02-07 10:25:59,617 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:25:59,647 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-02-07 10:25:59,651 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:25:59,714 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-02-07 10:25:59,715 - INFO - Authentication successful.
+2025-02-07 10:26:00,235 - INFO - Checking if user EF exists...
+2025-02-07 10:26:00,237 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:26:00,323 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,EF)AND(active,eq,true) HTTP/11" 200 1728
+2025-02-07 10:26:00,324 - INFO - Updating user EF...
+2025-02-07 10:26:00,326 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:26:00,748 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-02-07 10:26:00,749 - INFO - Successfully updated user EF.
+2025-02-07 10:26:00,750 - INFO - Checking if user PQ exists...
+2025-02-07 10:26:00,753 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:26:00,845 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,PQ)AND(active,eq,true) HTTP/11" 200 1728
+2025-02-07 10:26:00,846 - INFO - Updating user PQ...
+2025-02-07 10:26:00,850 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:26:01,003 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-02-07 10:26:01,004 - INFO - Successfully updated user PQ.
+2025-02-07 10:35:42,564 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:37:26,863 - INFO - Selected fields: FULLNAME
+2025-02-07 10:37:27,191 - INFO - Processing 2 records with fields: FULLNAME
+2025-02-07 10:40:26,486 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:40:36,863 - INFO - Selected fields: FULLNAME
+2025-02-07 10:40:37,195 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:40:37,207 - DEBUG - http://rpsupport1003:80 "POST /api/common/employee HTTP/11" 403 364
+2025-02-07 10:40:37,210 - INFO - Error sending data to Prism: 'USERNAME'
+2025-02-07 10:41:41,747 - INFO - Selected fields: FULLNAME
+2025-02-07 10:41:41,771 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:41:41,791 - DEBUG - http://rpsupport1003:80 "POST /api/common/employee HTTP/11" 403 364
+2025-02-07 10:41:41,793 - INFO - Error sending data to Prism: 'USERNAME'
+2025-02-07 10:42:27,546 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:42:41,694 - INFO - Authenticating...
+2025-02-07 10:42:41,706 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:42:41,735 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-02-07 10:42:41,739 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:42:41,827 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-02-07 10:42:41,827 - INFO - Authentication successful.
+2025-02-07 10:42:42,111 - INFO - Checking if user ABC exists...
+2025-02-07 10:42:42,112 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:42:42,170 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 1729
+2025-02-07 10:42:42,171 - INFO - Updating user ABC...
+2025-02-07 10:42:42,173 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:42:42,312 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1434
+2025-02-07 10:42:42,313 - INFO - Successfully updated user ABC.
+2025-02-07 10:42:42,314 - INFO - Checking if user MNO exists...
+2025-02-07 10:42:42,316 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:42:42,361 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 1729
+2025-02-07 10:42:42,362 - INFO - Updating user MNO...
+2025-02-07 10:42:42,363 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:42:42,480 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1434
+2025-02-07 10:42:42,481 - INFO - Successfully updated user MNO.
+2025-02-07 10:45:40,339 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:46:24,811 - INFO - Selected fields: FULLNAME
+2025-02-07 10:46:24,813 - INFO - Processing data...
+2025-02-07 10:50:52,967 - INFO - Log file path: D:\VM\VM\employeeimport\script.log
+2025-02-07 10:50:59,732 - INFO - Authenticating...
+2025-02-07 10:50:59,745 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:50:59,771 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-02-07 10:50:59,773 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:50:59,851 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-02-07 10:50:59,851 - INFO - Authentication successful.
+2025-02-07 10:51:00,140 - INFO - Checking if user ABC exists...
+2025-02-07 10:51:00,141 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:51:00,213 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,ABC)AND(active,eq,true) HTTP/11" 200 1731
+2025-02-07 10:51:00,214 - INFO - Updating user ABC...
+2025-02-07 10:51:00,215 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:51:00,334 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000151614 HTTP/11" 200 1432
+2025-02-07 10:51:00,335 - INFO - Successfully updated user ABC.
+2025-02-07 10:51:00,336 - INFO - Checking if user MNO exists...
+2025-02-07 10:51:00,339 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:51:00,380 - DEBUG - http://rpsupport1003:80 "GET /api/common/employeelist?filter=(username,lk,MNO)AND(active,eq,true) HTTP/11" 200 1731
+2025-02-07 10:51:00,381 - INFO - Updating user MNO...
+2025-02-07 10:51:00,383 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-07 10:51:00,482 - DEBUG - http://rpsupport1003:80 "PUT /api/common/employee/730758232000198616 HTTP/11" 200 1432
+2025-02-07 10:51:00,483 - INFO - Successfully updated user MNO.
