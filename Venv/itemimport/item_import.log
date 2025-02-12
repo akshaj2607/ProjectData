@@ -1,0 +1,51 @@
+2025-02-03 10:12:24,924 - INFO - Script started.
+2025-02-03 10:12:25,210 - INFO - Loaded Item Data:
+2025-02-03 10:12:25,210 - INFO -    ALU     UPC  ITEM_NO             VEND_CODE D_CODE  C_CODE  S_CODE  ... TEXT5  TEXT6  TEXT7  TEXT8  TEXT9  TEXT10 NON_INVENTORY
+0    1  100014      NaN  PARA02 - Paragon LLC    OTH     NaN     NaN  ...   NaN    NaN    NaN    NaN    NaN     NaN           NaN
+
+[1 rows x 59 columns]
+2025-02-03 10:12:30,163 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-03 10:12:30,184 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth HTTP/11" 200 0
+2025-02-03 10:12:30,185 - INFO - Generated Auth-Nonce-Response: 1181415
+2025-02-03 10:12:30,188 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-03 10:12:30,264 - DEBUG - http://rpsupport1003:80 "GET /v1/rest/auth?usr=sysadmin&pwd=sysadmin HTTP/11" 200 0
+2025-02-03 10:12:30,265 - INFO - Authenticated successfully. Auth-Session: D841D56A3C1B4245A9CEEB38FCAF93E2
+2025-02-03 10:12:30,265 - INFO - Starting data upload process.
+2025-02-03 10:12:30,266 - DEBUG - DataFrame columns: Index(['ALU', 'UPC', 'ITEM_NO', 'VEND_CODE', 'D_CODE', 'C_CODE', 'S_CODE',
+       'D_NAME', 'C_NAME', 'S_NAME', 'D_LONG_NAME', 'C_LONG_NAME',
+       'S_LONG_NAME', 'DESCRIPTION1', 'DESCRIPTION2', 'DESCRIPTION3',
+       'DESCRIPTION4', 'ATTR', 'SIZE', 'COST', 'ORDER_COST', 'PLV_1', 'PLV_2',
+       'PLV_3', 'PLV_4', 'PLV_5', 'PLV_6', 'UDF1_DATE', 'UDF2_DATE',
+       'UDF1_STRING', 'UDF2_STRING', 'UDF3_STRING', 'UDF4_STRING',
+       'UDF5_STRING', 'UDF6_STRING', 'UDF7_STRING', 'UDF8_STRING',
+       'UDF9_STRING', 'UDF10_STRING', 'UDF11_STRING', 'UDF12_STRING',
+       'UDF13_STRING', 'UDF14_STRING', 'ALT_VEND_CODE', 'ALT_ALU', 'ALT_UPC',
+       'ALT_ORDER_COST', 'LONG_DESCRIPTION', 'TEXT1', 'TEXT2', 'TEXT3',
+       'TEXT4', 'TEXT5', 'TEXT6', 'TEXT7', 'TEXT8', 'TEXT9', 'TEXT10',
+       'NON_INVENTORY'],
+      dtype='object')
+2025-02-03 10:12:30,267 - DEBUG - Payload for row 1: {
+  "data": [
+    {
+      "OriginApplication": "RProPrismWeb",
+      "PrimaryItemDefinition": {
+        "sid": "731360302000125768",
+        "dcssid": "731141629000187642"
+      },
+      "InventoryItems": [
+        {
+          "sbssid": "726950516000113256",
+          "udf1string": "Test1",
+          "sid": "731360302000125768"
+        }
+      ],
+      "UpdateStyleDefinition": false,
+      "UpdateStyleCost": false,
+      "UpdateStylePrice": false
+    }
+  ]
+}
+2025-02-03 10:12:30,268 - DEBUG - Starting new HTTP connection (1): rpsupport1003:80
+2025-02-03 10:12:30,351 - DEBUG - http://rpsupport1003:80 "POST /api/backoffice/inventory?action=InventorySaveItems HTTP/11" 400 794
+2025-02-03 10:12:30,352 - WARNING - Failed to upload data for Lookup Value: 1. Status Code: 400. Response: {"name":null,"metatype":null,"comment":null,"translationid":null,"errors":"[{\"date\":\"2025-02-03T10:12:30.349+05:30\",\"class\":\"EPrismCoreException\",\"errorcode\":\"DBError.19\",\"errormsg\":\"A required record in a related table is missing\",\"httpcode\":400,\"httpmessage\":\"400 - Bad Request\",\"functionname\":\"Unknown\",\"paramvalues\":null},{\"date\":\"2025-02-03T10:12:30.349+05:30\",\"class\":\"EORMConstraintException\",\"errormsg\":\"[FireDAC][Phys][Ora] ORA-02291: integrity constraint (RPS.SUBSIDIARY_INVN_SBS_ITEM) violated - parent key not found\"},{\"date\":\"2025-02-03T10:12:30.349+05:30\",\"class\":\"EOCINativeException\",\"errormsg\":\"[FireDAC][Phys][Ora] ORA-02291: integrity constraint (RPS.SUBSIDIARY_INVN_SBS_ITEM) violated - parent key not found\"}]","data":[]}
+2025-02-03 10:12:30,353 - INFO - Script finished successfully.
